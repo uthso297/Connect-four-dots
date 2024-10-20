@@ -71,7 +71,15 @@ const winningPatterns = [
     [17, 23, 29, 35],
     [4, 10, 16, 22],
     [10, 16, 22, 28],
-    [3, 9, 15, 21]
+    [3, 9, 15, 21],
+
+    [7,15,23,31],
+    [15,24,31,39],
+    [14,22,30,38],
+
+    [13,19,25,31],
+    [19,25,31,37],
+    [20,26,32,38]
 
 ]
 
@@ -124,6 +132,7 @@ const checkWinner = ()=>{
 
 const showWinner = (winner) => {
     console.log(winner);
+    console.log(red);
     disableBoxes();
 }
 
