@@ -1,6 +1,6 @@
 const boxes = document.querySelectorAll('.box');
 let reset = document.querySelector('#reset');
-let modal = document.querySelector('modal');
+let modal = document.querySelector('.modal');
 let red = true;
 
 
@@ -87,7 +87,7 @@ const winningPatterns = [
 
 for (let box of boxes) {
     box.addEventListener('click', () => {
-        console.log('clicked');
+        // console.log('clicked');
         box.classList.add('flex');
 
         if (red) {
@@ -131,8 +131,19 @@ const checkWinner = ()=>{
 }
 
 const showWinner = (winner) => {
-    console.log(winner);
-    console.log(red);
+    // console.log(winner);
+    // console.log(red);
+    modal.classList.remove('hide');
+    if(red === true){
+        modal.innerHTML = `
+        <p>Green is winner</p>
+        `
+    }
+    else{
+        modal.innerHTML = `
+        <p>Red is winner</p>
+        `
+    }
     disableBoxes();
 }
 
@@ -145,6 +156,8 @@ const disableBoxes = () => {
 const resetGame = () => {
     red = true; 
     enableBoxes();
+    modal.classList.add('hide');
+
 }
 
 

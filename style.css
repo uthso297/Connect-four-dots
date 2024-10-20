@@ -54,3 +54,26 @@ body {
     align-items: center;
 }
 
+#reset{
+  padding: 5px;
+  border-radius: 15px;
+  border: 2px solid skyblue;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+
+.modal{
+  position: absolute;
+  top: 50vh;
+  left: 90vh;
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px;
+  height: 10vh;
+  width: 30vw;
+  /* color: black; */
+  font-size: x-large;
+  text-align: center;
+  
+}
