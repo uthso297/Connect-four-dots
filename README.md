@@ -2,6 +2,9 @@
 
 **Connect Four Dots** is a fun and interactive web-based version of the classic Connect Four game. Players take turns to drop colored dots into a grid, aiming to connect four in a row. The game offers a simple, responsive interface for an engaging experience, perfect for quick, casual gameplay.
 
+## 🖼️ Screenshot  
+![ConnectFourDots Screenshot](https://i.ibb.co.com/HZw5gJn/Screenshot-2025-02-05-031318.png)
+
 ## Live Demo
 [Play Connect Four Dots](https://joyful-mooncake-c54551.netlify.app/)
 
